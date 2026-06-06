@@ -49,23 +49,7 @@ const command: Command = {
     }
 
     try {
-      const { audio } = interaction.client;
-      const queue = audio.getQueue(interaction.guild.id);
-
-
-      if (queue && queue.metadata.textChannel.id !== interaction.channelId) {
-        await interaction.editReply('Another queue is active in a different channel.');
-        return;
-      }
-      
-      await audio.play(voiceChannel, rawQuery, {
-        metadata: {
-          textChannel: interaction.channel,
-          muted: false,
-        },
-        position: playNext ? 0 : undefined,
-      });
-
+      //todo
 
     } catch (err: any) {
       console.error(err);
