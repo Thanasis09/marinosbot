@@ -1,0 +1,30 @@
+{
+  "name": "marinosbot",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "@distube/ytdl-core": "^4.16.12",
+    "@distube/ytsr": "^2.0.4",
+    "discord.js": "^14.26.4",
+    "distube": "^5.2.3",
+    "dotenv": "^17.4.2",
+    "youtube-sr": "^4.3.12"
+  }
+}
